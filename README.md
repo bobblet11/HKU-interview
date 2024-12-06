@@ -39,9 +39,10 @@ Instructions:
 
 USE INSTRUCTIONS:
 
-This submission has no backend and relies on localStorage as a database. 
-accounts are:
+This submission has no backend and relies on sessionStorage as a database. all changes made to the website will be lost when the session closes.
 
+
+accounts are:
 ```
 ADMIN
 admin:admin
@@ -60,3 +61,6 @@ Sophia_Lam:1234
 Eric_Yip:1234
 Anita_Cheung:1234
 ```
+
+to upload an assignment, select a PDF and press upload.
+to grade an assignment, download the pdf, read it, and then insert a grade out of 100.

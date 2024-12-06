@@ -42,6 +42,7 @@ USE INSTRUCTIONS:
 This submission has no backend and relies on localStorage as a database. 
 accounts are:
 
+```
 ADMIN
 admin:admin
 
@@ -56,5 +57,6 @@ TEACHERS
 Mei_Ling_Chan:1234
 David_Wong:1234
 Sophia_Lam:1234
+```
 Eric_Yip:1234
 Anita_Cheung:1234

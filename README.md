@@ -30,9 +30,31 @@ The teacher can
 
 3. Submit the grades if they are ready
 
-
 Instructions:
 
 1. Use ONLY Vue.js.
 
 2. Save the code onto GitHub, and send us the link
+
+
+USE INSTRUCTIONS:
+
+This submission has no backend and relies on localStorage as a database. 
+accounts are:
+
+ADMIN
+admin:admin
+
+STUDENTS
+u4820193:1234
+u7614382:1234
+u2945761:1234
+u8371204:1234
+u1509837:1234
+
+TEACHERS
+Mei_Ling_Chan:1234
+David_Wong:1234
+Sophia_Lam:1234
+Eric_Yip:1234
+Anita_Cheung:1234

@@ -40,7 +40,7 @@ Instructions:
 USE INSTRUCTIONS:
 
 This submission has no backend and relies on sessionStorage as a database. all changes made to the website will be lost when the session closes.
-
+Run the webpage using "npm run dev" in the terminal. To reset the data, close the tab and re-open the webpage.
 
 accounts are:
 ```

@@ -39,7 +39,7 @@ const assignmentName = router.currentRoute.value.params.submission;
 const student = ref(students[studentUsername]); // Make it reactive
 
 const assignment = computed(() => {
-	return student.value.progressReport.name === assignmentName ? student.value.progressReport : student.value.finalReport;
+	return !student.value.progressReport ? student.value.finalReport : (student.value.progressReport.name === assignmentName ? student.value.progressReport : student.value.finalReport);
 });
 
 const submittedFile = ref({

@@ -18,9 +18,9 @@
 				<p><strong>Average Grade:</strong> {{ averageGrade }}</p>
 				<div class="assignments">
 					<h2>Reports</h2>
-					<AssingmentRow name='Progress Report' :submission_name="progressReport.name"
+					<AssingmentRow name='progress report' :submission_name="progressReport.name"
 						:grade="progressReport.grade" />
-					<AssingmentRow name='Final Report' :submission_name="finalReport.name"
+					<AssingmentRow name='final report' :submission_name="finalReport.name"
 						:grade="finalReport.grade" />
 				</div>
 			</div>
@@ -36,9 +36,9 @@
 				<p><strong>Average Grade:</strong> {{ averageGrade }}</p>
 				<div class="assignments">
 					<h2>Reports</h2>
-					<AssingmentRow name='Progress Report' :submission_name="progressReport.name"
+					<AssingmentRow name='progress report' :submission_name="progressReport.name"
 						:grade="progressReport.grade" />
-					<AssingmentRow name='Final Report' :submission_name="finalReport.name"
+					<AssingmentRow name='final report' :submission_name="finalReport.name"
 						:grade="finalReport.grade" />
 				</div>
 			</div>
@@ -58,9 +58,9 @@
 				<p><strong>Average Grade:</strong> {{ averageGrade }}</p>
 				<div class="assignments">
 					<h2>Reports</h2>
-					<AssingmentRow name='Progress Report' :submission_name="progressReport.name"
+					<AssingmentRow name='progress report' :submission_name="progressReport.name"
 						:grade="progressReport.grade" />
-					<AssingmentRow name='Final Report' :submission_name="finalReport.name"
+					<AssingmentRow name='final report' :submission_name="finalReport.name"
 						:grade="finalReport.grade" />
 				</div>
 			</div>
